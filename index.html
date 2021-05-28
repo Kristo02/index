@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Kris-1.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+ <div class="hero">
+   <div class="nav-bar">
+       <div class="nav-logo"><img src="wmd/singapore\ 3.jpg" alt="Singapore logo"></div>
+              <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+               <ul>
+                <a href="index.html"><li>HOME</li></a> 
+                <a href="about.html"><li>ABOUT</li></a>
+                <a href="lifestyle.html"><li>LIFESTYLE</li></a>
+                <a href="contacts.html"><li>EVENTS</li></a>
+                <a href="feedback.html"><li>CONNECT WITH US</li></a>
+               </ul>
+               <button type="button" class="btn">SIGN UP</button>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
+         <div class="banner-title">
+           <h1>Singapore City Welcomes You!</h1>
+         </div>
+    <div class="vertical-bar">
+        <div class="search-icon">
+            <i class="fa fa-list"></i>
+            <i class="fa fa-search"></i>
+        </div>
+     <div class="social-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-pinterest"></i>
+     </div>
+
+    </div>
+ </div>
+ <script>
+   var show = document.getElementById("nav-links")
+   function showMenu() {
+     show.style.right= "0";
+     
+
+   }
+   function closeMenu() {
+     show.style.right= "-200px";
+     
+
+   }
+
+ </script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
